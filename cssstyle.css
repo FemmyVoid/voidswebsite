@@ -1,4 +1,5 @@
 p {
+  /* Used to set the properties of all TEXT/PARAGRAGHS on the website. */
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -8,6 +9,7 @@ p {
 }
 
 p.navigation {
+  /* Sets the NAVIGATION BAR to have it's own properties. */
   margin-top: 25px;
   margin-bottom: 25px;
   font-weight: bolder;
@@ -16,12 +18,14 @@ p.navigation {
 }
 
 p.basetext {
+  /* Sets the TEXT above my icon to have it's own properties. */
   font-size: 26px;
   font-weight: bold;
   padding-top: 70px;
 }
 
 img.myicon {
+  /* Sets the properties of my IMAGES. */
   width: 150px;
   border-radius: 50%;
   display: block;
@@ -34,15 +38,24 @@ img.myicon {
 }
 
 p.indev {
+  /* Sets the TEXT of the in development to it's own properaties. */
   font-style: italic;
   padding-top: 50px;
 }
 
 body {
+  /* Used to set the background of ALL pages on the website. */
   background-color: rgb(20, 20, 20);
 }
 
 a {
+  /* Used to set the properties of all LINKS on the website. */
   text-decoration: none;
   color: cyan;
+}
+
+a:hover {
+  /* Used to set the properties of all LINKS on the website. */
+  text-decoration: none;
+  color: white;
 }
