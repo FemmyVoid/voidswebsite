@@ -20,7 +20,7 @@ p.basetext {
   /* Sets the TEXT above my icon to have it's own properties. */
   font-size: 26px;
   font-weight: bold;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 img.myicon {
