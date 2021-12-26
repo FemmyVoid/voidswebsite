@@ -3,7 +3,6 @@ p {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-
   font-size: 16px;
   color: white;
 }
@@ -45,7 +44,9 @@ p.indev {
 
 body {
   /* Used to set the background of ALL pages on the website. */
-  background-color: rgb(20, 20, 20);
+  /*background-color: rgb(20, 20, 20);*/
+  background-image: url("images/VoidBackground.gif");
+  background-size: 150px;
 }
 
 a {
@@ -58,4 +59,31 @@ a:hover {
   /* Used to set the properties of all LINKS on the website. */
   text-decoration: none;
   color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: rgb(30, 30, 30);*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(40, 40, 40);
+  color: cyan;
 }
