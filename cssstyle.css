@@ -1,3 +1,13 @@
+div.center {
+  /* Used to create a centeral division for all elemetes away from the background. */
+  display: block;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid 2px rgb(40, 40, 40);
+  background: rgb(10, 10, 10);
+}
+
 p {
   /* Used to set the properties of all TEXT/PARAGRAGHS on the website. */
   text-align: center;
@@ -18,9 +28,9 @@ p.navigation {
 
 p.basetext {
   /* Sets the TEXT above my icon to have it's own properties. */
+  margin: 16px;
   font-size: 26px;
   font-weight: bold;
-  padding-top: 50px;
 }
 
 img.myicon {
@@ -34,17 +44,18 @@ img.myicon {
   border-color: cyan;
   border-width: 3px;
   border-style: solid;
+  background-color: rgb(10, 10, 10);
 }
 
 p.indev {
   /* Sets the TEXT of the in development to it's own properaties. */
   font-style: italic;
-  padding-top: 50px;
+  margin-top: 16px;
 }
 
 body {
   /* Used to set the background of ALL pages on the website. */
-  /*background-color: rgb(20, 20, 20);*/
+  background-color: rgb(10, 10, 10);
   background-image: url("images/VoidBackground.gif");
   background-size: 150px;
 }
