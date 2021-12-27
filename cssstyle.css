@@ -2,6 +2,7 @@ div.center {
   /* Used to create a centeral division for all elemetes away from the background. */
   display: block;
   margin-top: 30px;
+  height: 920px;
   margin-left: 10%;
   margin-right: 10%;
   border: solid 2px rgb(40, 40, 40);
@@ -15,6 +16,8 @@ p {
     "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
   color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 p.navigation {
@@ -45,10 +48,12 @@ img.myicon {
   border-width: 3px;
   border-style: solid;
   background-color: rgb(10, 10, 10);
+  color: white;
 }
 
 p.indev {
   /* Sets the TEXT of the in development to it's own properaties. */
+  color: red;
   font-style: italic;
   margin-top: 16px;
 }
@@ -78,10 +83,6 @@ ul {
   padding: 0;
   overflow: hidden;
   /*background-color: rgb(30, 30, 30);*/
-}
-
-li {
-  float: left;
 }
 
 li a {
