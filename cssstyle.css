@@ -95,7 +95,7 @@ li a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 560px auto;
+  grid-template-columns: 360px auto;
   grid-template-rows: auto;
   grid-template-areas:
     "header header"
@@ -108,9 +108,15 @@ li a:hover {
   color: white;
   text-align: center;
   vertical-align: top;
+  justify-content: center;
 }
 
-.item1 {
+.grid img {
+  display: flex;
+  align-self: center;
+}
+
+.gridtitle {
   grid-area: header;
   color: cyan;
 }

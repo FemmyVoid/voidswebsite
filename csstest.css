@@ -13,7 +13,6 @@ main {
 }
 
 .glass {
-  background: black;
   min-height: 80vh;
   width: 60%;
   background: linear-gradient(
@@ -23,4 +22,21 @@ main {
   );
   border-radius: 2rem;
   backdrop-filter: blur(2rem);
+}
+
+.dashboard {
+  display: flex;
+  min-height: 80vh;
+  width: 300px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 255, 255, 0.7),
+    rgb(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  justify-content: space-evenly;
+}
+
+.information {
+  display: flex;
 }
